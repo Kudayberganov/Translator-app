@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Translator Of Kudaybergenov</title>
+        <link rel="shortcut icon" href="./img/translateimg.jpg" type="image/x-icon">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container container-sm container-md text-center mt-5">
+            <div class="wrapper mt-5">
+                <div class="text-input d-flex">
+                    <textarea id="textarea1"
+                        class="form-control w-50 border border-dark-subtle fs-5 p-3 rounded"
+                        
+                    ></textarea>
+                    &nbsp; &nbsp;
+                    <textarea id="textarea2"
+                        class="form-control w-50 fs-5 border border-dark-subtle p-3 rounded fst-italic"
+
+                        placeholder="Translating"
+                        readonly
+                        disabled
+                    ></textarea>
+                </div>
+
+                <ul class="controls list-unstyled mt-3">
+                    <li class="languages fs-5 d-flex justify-content-around ">
+                        <select class="form-select-sm options1"></select>
+                        <!-- <button type="button" class="btn btn-opt btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <i class="fas fa-copy copy1"></i>
+                        </button> -->
+
+                        <select class="form-select-sm options2"></select>
+                        <!-- <button type="button" class="btn btn-opt btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <i class="fas fa-copy copy2"></i>
+                        </button> -->
+                    </li>
+                    <li class="exchange fs-5">
+                        <i class="fas fa-exchange-alt"></i> 
+                    </li>
+                </ul>
+                <!-- MODAL  -->
+                 <!-- <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="modal-title text-center">Copied!</div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                 </div> -->
+            </div>
+            <br />
+            <button class="btn btn-translate btn-outline-warning btn-group-sm px-5 py-2 fs-5">
+                Translate
+            </button>
+            <p class="design">Designed and Created by O'tkirbek Kudaybergenov</p>
+
+
+
+         
+        </div>
+
+
+
+        <script src="./js/languages.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
